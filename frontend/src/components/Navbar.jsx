@@ -84,7 +84,7 @@ const Navbar = () => {
         {/* Mobile Slide-out Menu */}
         <div className={`${showMenu ? 'fixed w-full' : 'h-0 w-0'} md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}>
           <div className='flex items-center justify-between px-5 py-6'>
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Apollo_Hospitals_Logo.svg/1200px-Apollo_Hospitals_Logo.svg.png" alt="logo" height={50} width={60} />
+            <img src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/afc603swozyofbjwrojh" alt="logo" height={50} width={60} />
             <img onClick={() => setShowMenu(false)} src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/512x512/navigate_cross.png" alt="close" height={20} width={20} />
           </div>
           <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
